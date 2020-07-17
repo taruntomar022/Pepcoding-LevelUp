@@ -4,7 +4,7 @@ import java.util.*;
 public class Main {
 
   public static void selectionSort(int[] arr) {
-    for(int i=0;i<arr.length-1;i++){
+    for(int i=0;i<arr.length-1;i++){ 
         int minidx = i;
         for(int j=i+1;j<arr.length;j++){
             if(isSmaller(arr,j,minidx)){
